@@ -51,10 +51,10 @@ function log(valor){
 
 function ope(){
     total = 0;
-    // console.log('soma 9 ' + soma(9));
-    // console.log('sub 9 ' + subtracao(9));
-    // console.log('mult 2 ' + multiplicacao(2));
-    // console.log('div 2 ' + divisao(2));
-    // console.log('expo 2 ' + exponentiation(2));
+    console.log('soma 9 ' + soma(9));
+    console.log('sub 9 ' + subtracao(9));
+    console.log('mult 2 ' + multiplicacao(2));
+    console.log('div 2 ' + divisao(2));
+    console.log('expo 2 ' + exponentiation(2));
     console.log("radia 64 " + radia(64))
 }
