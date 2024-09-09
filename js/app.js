@@ -17,36 +17,20 @@ function divisao(valor){
 }
 
 function exponentiation(valor){
-    return total **= valor;
+    return total **= (valor);
 }
 
-function radia(valor, expoente){
-    total = valor ** (1/expoente);
-    return total;
+function radia(expoente){
+    return total **= (1/expoente);
 }
 
-function calculate(valor, a, number){
-    let b = true;
 
-    while(b){
-        b = (valor >= (10 ** a))
-        if(b){
-            a += number;
-        }
-    }
-    a -= number;
-    return a;
+function log(){
+    return total = Math.log10(total);
 }
 
-function log(valor){
-    let a = 0;
-
-    a = calculate(valor, a, 1);
-    a = calculate(valor, a, 0.1);
-    a = calculate(valor, a, 0.01);
-    a = calculate(valor, a, 0.001);
-    a = calculate(valor, a, 0.001);
-    return Number(a.toFixed(4))
+function clean(){
+    return total = 0;
 }
 
 function ope(){
