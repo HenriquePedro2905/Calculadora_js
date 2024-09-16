@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-calculator {
+    width: 380px;
+    height: 520px;
+    border-style: solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: flex-start; Alinhar itens ao topo */
+}
+
+#scream {
+    width: 300px;
+    height: 90px;
+    margin: 5px auto 0 auto;
+    border-style: solid;
+    border-color: black;
+}
+
+.btns-de-cima {
+    width: 325px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    gap: 10px; /* Espaço reduzido entre os botões */
+}
+
+.btns-de-cima button {
+    width: 60px;
+    height: 50px;
+}
+
+.btns-wrapper {
+    display: flex;
+    gap: 2px; 
+}
+
+.btns-centrais {
+    margin: 10px;
+    width: 240px;
+    height: 240px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px; /* Espaço entre as colunas */
+    row-gap: 5px;    /* Espaço entre as linhas */
+}
+
+.btns-centrais button {
+    width: 80px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.btns-laterais {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 60px;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espaço reduzido entre os botões laterais */
+}
+
+.btns-laterais button {
+    width: 70px;
+    height: 55px;
+}
